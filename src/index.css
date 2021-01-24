@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media screen and (max-width: 1360px) {
+  .header__rightBits {
+    display: none;
+    background-color: red;
+  }
+}

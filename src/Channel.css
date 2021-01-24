@@ -24,3 +24,17 @@
   width: 40px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 1170px) {
+  .channel {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .channel__details {
+    display: block;
+    text-align: center;
+  }
+}

@@ -59,3 +59,9 @@
   height: 295px;
   width: 500px;
 }
+
+@media screen and (max-width: 900px) {
+  .stream {
+    display: none;
+  }
+}

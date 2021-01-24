@@ -93,3 +93,24 @@
 .header__rightBits > i {
   margin-right: 5px;
 }
+
+@media screen and (max-width: 1360px) {
+  .header__rightBits {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .header__left h2 {
+    display: none;
+  }
+  .header__center {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__centerLogoContainer {
+    width: 90px;
+  }
+}
