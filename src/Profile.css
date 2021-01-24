@@ -63,6 +63,7 @@
 
 .profile__recentItems {
   display: flex;
+  padding-top: 1rem;
 }
 
 .profile__recent {
@@ -79,4 +80,5 @@
 
 .profile__categories > h3 {
   margin-top: 10px;
+  padding-bottom: 1rem;
 }
